@@ -453,6 +453,7 @@ class TextField extends Component {
       onBlur: this.handleInputBlur,
       onChange: this.handleInputChange,
       onFocus: this.handleInputFocus,
+      type: this.props.type
     };
 
     const childStyleMerged = Object.assign(styles.input, inputStyle);
